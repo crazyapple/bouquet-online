@@ -6,7 +6,7 @@ import { useBouquet } from '@/lib/store';
 import { getAllLeaves } from '@/lib/utils';
 import { domToPng } from "modern-screenshot";
 
-export default function Step5() {
+export default function Step4() {
   const { state } = useBouquet();
   const [email, setEmail] = useState('');
   const previewRef = useRef<HTMLDivElement>(null);
